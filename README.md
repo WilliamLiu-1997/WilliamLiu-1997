@@ -92,6 +92,14 @@ I like working on problems where graphics, performance, data size, and developer
 
 ---
 
+## Commit activity
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" />
+</p>
+
+---
+
 ## Current direction
 
 ```txt
@@ -106,3 +114,4 @@ Inspection / alignment
 Browser rendering
   ↓
 WebGIS / digital twin workflows
+```
