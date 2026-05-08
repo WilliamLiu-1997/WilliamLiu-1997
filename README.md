@@ -42,7 +42,7 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
 
 <br />
 
-<img alt="Animated 3D icons for 3DGS, 3D Tiles, WebGIS, and Performance" src="./assets/dynamic-3d-stack.svg" width="860" />
+<img alt="Animated 3D icons for 3DGS, 3D Tiles, WebGIS, and Performance" src="./assets/dynamic-3d-stack.svg" width="100%" />
 
 <table>
   <tr>
