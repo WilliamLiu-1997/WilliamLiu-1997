@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Animated 3D web stack</title>
+  <desc id="desc">Animated icons for 3DGS, 3D Tiles, WebGIS, and performance connected by streaming paths.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c7cfdd" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="tileTop" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#edf0f6"/>
+      <stop offset="1" stop-color="#9cadcf"/>
+    </linearGradient>
+    <linearGradient id="tileSide" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#718ee8"/>
+      <stop offset="1" stop-color="#8f98a8"/>
+    </linearGradient>
+    <linearGradient id="terrain" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#cfc1a5"/>
+      <stop offset="1" stop-color="#aeb8c8"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 0H960V338C960 350.15 950.15 360 938 360H22C9.85 360 0 350.15 0 338V0Z" fill="#e8ebf0"/>
+  <path d="M0 0H960V338C960 350.15 950.15 360 938 360H22C9.85 360 0 350.15 0 338V0Z" fill="url(#grid)" opacity="0.42"/>
+  <path d="M0 260C115 220 196 232 300 260C426 294 558 305 706 250C820 207 894 220 960 238V360H0Z" fill="#d5dbe5" opacity="0.72"/>
+  <path d="M0 284C142 252 263 273 388 291C517 310 648 307 782 260C860 233 916 238 960 252V360H0Z" fill="#eef1f5" opacity="0.58"/>
+
+  <g fill="none" stroke-linecap="round" filter="url(#softGlow)">
+    <path d="M154 175C257 86 330 92 396 158C467 228 546 232 626 156C701 86 779 86 842 156" stroke="#405fd0" stroke-width="2.5" stroke-dasharray="7 14" opacity="0.34">
+      <animate attributeName="stroke-dashoffset" values="0;-126" dur="6.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M156 216C280 286 392 278 486 212C572 151 645 152 724 206C771 238 821 236 872 202" stroke="#6546c8" stroke-width="2" stroke-dasharray="5 13" opacity="0.26">
+      <animate attributeName="stroke-dashoffset" values="0;-108" dur="7.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(125 176)" filter="url(#softGlow)">
+    <text x="0" y="-119" fill="#475467" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">3DGS</text>
+    <ellipse cx="0" cy="67" rx="92" ry="22" fill="#cbd5e1" opacity="0.25"/>
+    <g opacity="0.95">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5.2s" repeatCount="indefinite"/>
+      <ellipse cx="-54" cy="18" rx="24" ry="11" fill="#4f68dc" opacity="0.4" transform="rotate(-18 -54 18)">
+        <animate attributeName="opacity" values="0.28;0.58;0.28" dur="3.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="-26" cy="-20" rx="30" ry="13" fill="#7354d8" opacity="0.38" transform="rotate(24 -26 -20)">
+        <animate attributeName="opacity" values="0.35;0.68;0.35" dur="3.7s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="18" cy="-4" rx="36" ry="15" fill="#8f9bb0" opacity="0.4" transform="rotate(-10 18 -4)">
+        <animate attributeName="opacity" values="0.32;0.66;0.32" dur="3.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="52" cy="25" rx="29" ry="12" fill="#bba77f" opacity="0.4" transform="rotate(18 52 25)">
+        <animate attributeName="opacity" values="0.28;0.6;0.28" dur="3.9s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="7" cy="42" rx="42" ry="17" fill="#9fa8b8" opacity="0.34" transform="rotate(-6 7 42)">
+        <animate attributeName="opacity" values="0.22;0.5;0.22" dur="4.1s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="-7" cy="8" rx="72" ry="42" fill="none" stroke="#718ee8" stroke-width="1.4" opacity="0.3" stroke-dasharray="5 10">
+        <animate attributeName="stroke-dashoffset" values="0;-90" dur="7s" repeatCount="indefinite"/>
+      </ellipse>
+      <g fill="#405fd0" opacity="0.76">
+        <circle cx="-63" cy="-18" r="3.4"/>
+        <circle cx="-43" cy="38" r="2.8"/>
+        <circle cx="-19" cy="5" r="3.1"/>
+        <circle cx="4" cy="-35" r="3.5"/>
+        <circle cx="31" cy="29" r="3.2"/>
+        <circle cx="59" cy="-7" r="2.9"/>
+      </g>
+      <g fill="#6546c8" opacity="0.4">
+        <circle cx="-73" cy="18" r="1.8"/>
+        <circle cx="-35" cy="-37" r="1.7"/>
+        <circle cx="-3" cy="58" r="2"/>
+        <circle cx="34" cy="-26" r="1.8"/>
+        <circle cx="71" cy="31" r="1.9"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(365 182)" filter="url(#softGlow)">
+    <text x="0" y="-126" fill="#475467" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">3D Tiles</text>
+    <g opacity="0.26" stroke="#94a3b8" stroke-width="1">
+      <path d="M-130 70L0 145L130 70L0 -5Z" fill="none"/>
+      <path d="M-88 45L0 96L88 45L0 -6Z" fill="none"/>
+      <path d="M-46 20L0 47L46 20L0 -7Z" fill="none"/>
+    </g>
+
+    <g transform="translate(-80 33)">
+      <animateTransform attributeName="transform" type="translate" values="-80 39;-80 24;-80 39" dur="4.6s" repeatCount="indefinite"/>
+      <path d="M0 -18L36 0L0 18L-36 0Z" fill="url(#tileTop)" opacity="0.95"/>
+      <path d="M-36 0L0 18V62L-36 44Z" fill="#718ee8" opacity="0.74"/>
+      <path d="M36 0L0 18V62L36 44Z" fill="#8f98a8" opacity="0.8"/>
+    </g>
+
+    <g transform="translate(0 8)">
+      <animateTransform attributeName="transform" type="translate" values="0 13;0 -5;0 13" dur="5.2s" repeatCount="indefinite"/>
+      <path d="M0 -20L42 0L0 20L-42 0Z" fill="url(#tileTop)" opacity="0.98"/>
+      <path d="M-42 0L0 20V79L-42 59Z" fill="#718ee8"/>
+      <path d="M42 0L0 20V79L42 59Z" fill="url(#tileSide)"/>
+      <path d="M0 -20L42 0L0 20L-42 0Z" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.82"/>
+    </g>
+
+    <g transform="translate(84 38)">
+      <animateTransform attributeName="transform" type="translate" values="84 45;84 27;84 45" dur="4.1s" repeatCount="indefinite"/>
+      <path d="M0 -16L34 0L0 16L-34 0Z" fill="#d1c4ac" opacity="0.92"/>
+      <path d="M-34 0L0 16V53L-34 37Z" fill="#ad9a78" opacity="0.74"/>
+      <path d="M34 0L0 16V53L34 37Z" fill="#8791a1" opacity="0.74"/>
+    </g>
+
+    <g transform="translate(0 86)">
+      <path d="M-148 0L0 82L148 0L0 -82Z" fill="none" stroke="#718ee8" stroke-width="1.5" opacity="0.26" stroke-dasharray="8 10">
+        <animate attributeName="stroke-dashoffset" values="0;-90" dur="9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+  <g transform="translate(610 176)" filter="url(#softGlow)">
+    <text x="0" y="-115" fill="#475467" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">WebGIS</text>
+    <circle r="78" fill="#eef1f5" stroke="#718ee8" stroke-width="2.5" opacity="0.95"/>
+    <ellipse rx="78" ry="26" fill="none" stroke="#405fd0" stroke-width="1.5" opacity="0.46"/>
+    <ellipse rx="78" ry="26" fill="none" stroke="#6546c8" stroke-width="1.3" opacity="0.34" transform="rotate(60)"/>
+    <ellipse rx="78" ry="26" fill="none" stroke="#a3916f" stroke-width="1.3" opacity="0.34" transform="rotate(-60)"/>
+    <path d="M-52 20C-28 -18 10 -28 42 -4C28 21 4 37 -31 34Z" fill="url(#terrain)" opacity="0.74"/>
+    <path d="M-18 -46C10 -60 46 -42 55 -15C36 -24 12 -23 -8 -8Z" fill="#a9b39d" opacity="0.64"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="18s" repeatCount="indefinite"/>
+      <circle cx="78" cy="0" r="5.5" fill="#6546c8"/>
+      <circle cx="-78" cy="0" r="4.5" fill="#405fd0"/>
+    </g>
+    <g transform="rotate(-28)">
+      <animateTransform attributeName="transform" type="rotate" values="-28;332" dur="13s" repeatCount="indefinite"/>
+      <circle cx="0" cy="-78" r="4.6" fill="#a3916f"/>
+    </g>
+  </g>
+
+  <g transform="translate(825 204)" filter="url(#softGlow)">
+    <text x="0" y="-119" fill="#475467" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Performance</text>
+    <rect x="-74" y="-44" width="148" height="116" rx="8" fill="#f6f7fa" stroke="#bcc6d6" stroke-width="2" opacity="0.98"/>
+    <rect x="-58" y="-27" width="42" height="20" rx="5" fill="#e8edf7" stroke="#718ee8" stroke-width="1" opacity="0.95"/>
+    <rect x="17" y="-27" width="42" height="20" rx="5" fill="#ebe8f7" stroke="#8d7ade" stroke-width="1" opacity="0.95"/>
+    <text x="-37" y="-12" fill="#405fd0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle">FPS</text>
+    <text x="38" y="-12" fill="#6546c8" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" text-anchor="middle">ms</text>
+    <g stroke="#d5dbe8" stroke-width="1" opacity="0.8">
+      <path d="M-58 12H58"/>
+      <path d="M-58 32H58"/>
+      <path d="M-58 52H58"/>
+      <path d="M-58 12V58"/>
+      <path d="M-19 12V58"/>
+      <path d="M20 12V58"/>
+      <path d="M58 12V58"/>
+    </g>
+    <path d="M-58 51C-44 35 -35 44 -24 30C-12 14 -1 24 10 18C22 11 32 18 42 27C50 34 56 22 58 16" fill="none" stroke="#5f7f68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" values="M-58 51C-44 35 -35 44 -24 30C-12 14 -1 24 10 18C22 11 32 18 42 27C50 34 56 22 58 16;M-58 42C-46 29 -35 35 -24 22C-12 10 -1 18 10 28C22 39 33 28 42 20C50 14 55 21 58 31;M-58 51C-44 35 -35 44 -24 30C-12 14 -1 24 10 18C22 11 32 18 42 27C50 34 56 22 58 16" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-58 58H58" stroke="#94a3b8" stroke-width="1.5" opacity="0.42"/>
+    <g fill="#a3916f" opacity="0.66">
+      <rect x="-58" y="63" width="20" height="7" rx="3">
+        <animate attributeName="width" values="20;34;22;30;20" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-18" y="63" width="28" height="7" rx="3">
+        <animate attributeName="width" values="28;18;38;24;28" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="27" y="63" width="31" height="7" rx="3">
+        <animate attributeName="width" values="31;22;36;27;31" dur="3.7s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g>
+      <circle cx="-58" cy="51" r="4.8" fill="#405fd0">
+        <animateMotion dur="4.2s" repeatCount="indefinite" path="M0 0C14 -16 23 -7 34 -21C46 -37 57 -27 68 -33C80 -40 90 -33 100 -24C108 -17 114 -29 116 -35"/>
+      </circle>
+    </g>
+  </g>
+
+</svg>

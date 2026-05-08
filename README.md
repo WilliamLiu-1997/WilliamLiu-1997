@@ -40,6 +40,10 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
 
 ## Focus areas
 
+<br />
+
+<img alt="Animated 3D icons for 3DGS, 3D Tiles, WebGIS, and Performance" src="./assets/dynamic-3d-stack.svg" width="860" />
+
 <table>
   <tr>
     <td width="50%">
