@@ -4,8 +4,9 @@
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&duration=2800&pause=800&center=true&vCenter=true&width=800&lines=Building+tools+for+3D+web+visualization;Exploring+Gaussian+Splatting+and+3D+Tiles;Working+on+large-scene+streaming+and+WebGIS+workflows" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&duration=2800&pause=900&center=true&vCenter=true&width=780&lines=Building+tools+for+3D+web+visualization;Exploring+Gaussian+Splatting+and+3D+Tiles;Working+on+WebGIS+and+large-scene+streaming" />
 
+<br />
 <br />
 
 <p>
@@ -25,11 +26,11 @@
 
 ## Hi there 👋
 
-I like building tools that make 3D data easier to use in real web and geospatial workflows.
+I’m interested in building practical tools for **3D web visualization**, **geospatial scenes**, and **large 3D data workflows**.
 
-Recently, I’ve been spending most of my time around **3D Gaussian Splatting**, **3D Tiles**, **Three.js**, and **CesiumJS** — especially the parts where large scenes need to be converted, streamed, inspected, aligned, and rendered smoothly in the browser.
+Recently, my work has been focused around **3D Gaussian Splatting**, **3D Tiles**, **Three.js**, and **CesiumJS** — especially how large 3D scenes can be converted, streamed, inspected, aligned, and rendered more smoothly in the browser.
 
-I enjoy working close to practical problems: performance, data size, visual quality, geospatial placement, and developer experience.
+I like working on problems where graphics, performance, data size, and developer experience all matter.
 
 ---
 
@@ -37,24 +38,24 @@ I enjoy working close to practical problems: performance, data size, visual qual
 
 <table>
   <tr>
-    <td>🧊 3D Gaussian Splatting</td>
-    <td>Making splat data easier to use outside local demos</td>
+    <td>🧊 <b>Gaussian Splatting</b></td>
+    <td>Making 3DGS data easier to use in real web workflows</td>
   </tr>
   <tr>
-    <td>🌍 WebGIS / Digital Twins</td>
-    <td>Connecting 3D content with real geospatial scenes</td>
+    <td>🌍 <b>WebGIS</b></td>
+    <td>Connecting 3D content with real geospatial environments</td>
   </tr>
   <tr>
-    <td>🧱 3D Tiles</td>
-    <td>Streaming large 3D scenes with tile-based workflows</td>
+    <td>🧱 <b>3D Tiles</b></td>
+    <td>Organizing and streaming large 3D scenes in the browser</td>
   </tr>
   <tr>
-    <td>⚡ Browser Rendering</td>
-    <td>Improving loading, LOD, and runtime experience</td>
+    <td>⚡ <b>Performance</b></td>
+    <td>Improving loading, LOD behavior, and runtime experience</td>
   </tr>
   <tr>
-    <td>🛠️ Developer Tools</td>
-    <td>Building practical tools for inspecting and editing 3D data</td>
+    <td>🛠️ <b>Developer Tools</b></td>
+    <td>Building tools for inspection, alignment, and editing</td>
   </tr>
 </table>
 
@@ -62,41 +63,32 @@ I enjoy working close to practical problems: performance, data size, visual qual
 
 ## Selected work
 
-<p align="center">
-  <a href="https://github.com/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WilliamLiu-1997&repo=3DGS-PLY-3DTiles-Converter&hide_border=true" />
-  </a>
-  <a href="https://github.com/WilliamLiu-1997/3D-Tiles-RendererJS-3DGS-Plugin">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WilliamLiu-1997&repo=3D-Tiles-RendererJS-3DGS-Plugin&hide_border=true" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/WilliamLiu-1997/3DTiles-Inspector">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=WilliamLiu-1997&repo=3DTiles-Inspector&hide_border=true" />
-  </a>
-</p>
-
----
-
-## GitHub activity
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=WilliamLiu-1997&theme=flat&no-frame=true&margin-w=10&row=1" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WilliamLiu-1997&show_icons=true&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WilliamLiu-1997&layout=compact&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=WilliamLiu-1997&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WilliamLiu-1997&hide_border=true&radius=8" />
-</p>
+<table>
+  <tr>
+    <td>
+      <h3>🧊 3DGS / 3D Tiles Converter</h3>
+      <p>Tools for bringing Gaussian Splatting data into tiled web workflows.</p>
+      <a href="https://github.com/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter">View repository →</a>
+    </td>
+    <td>
+      <h3>🌐 3DGS Renderer Plugin</h3>
+      <p>Browser rendering experiments around Gaussian Splatting and 3D Tiles.</p>
+      <a href="https://github.com/WilliamLiu-1997/3D-Tiles-RendererJS-3DGS-Plugin">View repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>🛠️ 3D Tiles Inspector</h3>
+      <p>Local tools for inspecting and adjusting 3D Tiles workflows.</p>
+      <a href="https://github.com/WilliamLiu-1997/3DTiles-Inspector">View repository →</a>
+    </td>
+    <td>
+      <h3>🧪 Experiments</h3>
+      <p>Other experiments around 3D graphics, interaction, and visualization.</p>
+      <a href="https://github.com/WilliamLiu-1997?tab=repositories">View all repositories →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
