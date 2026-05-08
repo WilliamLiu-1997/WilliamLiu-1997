@@ -38,25 +38,6 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
 
 ---
 
-## Now
-
-<table>
-  <tr>
-    <td>🚧 <b>Building</b></td>
-    <td>Tools that move 3DGS and large scene data into browser-ready pipelines</td>
-  </tr>
-  <tr>
-    <td>🔍 <b>Investigating</b></td>
-    <td>Streaming, LOD behavior, tile inspection, coordinate alignment, and render performance</td>
-  </tr>
-  <tr>
-    <td>🧭 <b>Connecting</b></td>
-    <td>3D assets with WebGIS, digital twin, and real-world spatial workflows</td>
-  </tr>
-</table>
-
----
-
 ## Focus areas
 
 <table>
@@ -88,18 +69,30 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🧊 3DGS / 3D Tiles Converter</h3>
-      <p>Tools for bringing Gaussian Splatting data into tiled web workflows.</p>
+      <p>Converts Gaussian Splatting PLY into streamable 3D Tiles with adaptive k-d tree LOD and SPZ compression.</p>
+      <p>
+        <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" />
+        <img alt="3D Tiles" src="https://img.shields.io/badge/3D%20Tiles-7952B3?style=flat-square" />
+        <img alt="glTF" src="https://img.shields.io/badge/glTF-87C540?style=flat-square" />
+      </p>
       <p>
         <img alt="Stars" src="https://img.shields.io/github/stars/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter?style=flat-square&logo=github" />
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter?style=flat-square" />
       </p>
       <a href="https://github.com/WilliamLiu-1997/3DGS-PLY-3DTiles-Converter">View repository →</a>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🌐 3DGS Renderer Plugin</h3>
-      <p>Browser rendering experiments around Gaussian Splatting and 3D Tiles.</p>
+      <p>Plugin for 3D Tiles Renderer that streams Gaussian splat tiles via the Spark renderer in Three.js.</p>
+      <p>
+        <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4A5568?style=flat-square&logo=three.js&logoColor=white" />
+        <img alt="3D Tiles" src="https://img.shields.io/badge/3D%20Tiles-7952B3?style=flat-square" />
+        <img alt="Spark" src="https://img.shields.io/badge/Spark-FF6B6B?style=flat-square" />
+      </p>
       <p>
         <img alt="Stars" src="https://img.shields.io/github/stars/WilliamLiu-1997/3D-Tiles-RendererJS-3DGS-Plugin?style=flat-square&logo=github" />
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/WilliamLiu-1997/3D-Tiles-RendererJS-3DGS-Plugin?style=flat-square" />
@@ -108,23 +101,30 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3>🛠️ 3D Tiles Inspector</h3>
-      <p>Local tools for inspecting and adjusting 3D Tiles workflows.</p>
+      <p>CLI + browser inspector for 3D Tiles: tune root transform, geometric error, and crop 3DGS tilesets locally.</p>
+      <p>
+        <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" />
+        <img alt="Three.js" src="https://img.shields.io/badge/Three.js-4A5568?style=flat-square&logo=three.js&logoColor=white" />
+        <img alt="3D Tiles" src="https://img.shields.io/badge/3D%20Tiles-7952B3?style=flat-square" />
+      </p>
       <p>
         <img alt="Stars" src="https://img.shields.io/github/stars/WilliamLiu-1997/3DTiles-Inspector?style=flat-square&logo=github" />
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/WilliamLiu-1997/3DTiles-Inspector?style=flat-square" />
       </p>
       <a href="https://github.com/WilliamLiu-1997/3DTiles-Inspector">View repository →</a>
     </td>
-    <td width="50%">
-      <h3>🧪 Experiments</h3>
-      <p>Graphics, interaction, geospatial visualization, and practical developer tooling experiments.</p>
+    <td width="50%" valign="top">
+      <h3>🧪 Lab &amp; explorations</h3>
+      <p>Side experiments around shaders, streaming strategies, coordinate alignment, and developer tooling for 3D web stacks.</p>
       <p>
-        <img alt="Repos" src="https://img.shields.io/badge/Open%20source-active-2ea44f?style=flat-square" />
+        <img alt="Open source" src="https://img.shields.io/badge/Open%20source-active-2ea44f?style=flat-square" />
         <img alt="Focus" src="https://img.shields.io/badge/Focus-3D%20web%20workflows-8957e5?style=flat-square" />
+        <img alt="Open to" src="https://img.shields.io/badge/Open%20to-collab%20%26%20issues-1f6feb?style=flat-square" />
       </p>
-      <a href="https://github.com/WilliamLiu-1997?tab=repositories">View all repositories →</a>
+      <a href="https://github.com/WilliamLiu-1997?tab=repositories">Browse all repositories →</a>
     </td>
   </tr>
 </table>
@@ -135,11 +135,6 @@ My current lane is practical 3D infrastructure: converting messy data, organizin
 
 <p align="center">
   <img alt="Profile details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WilliamLiu-1997&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img alt="Repos per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WilliamLiu-1997&theme=github_dark" />
-  <img alt="Productive time" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=WilliamLiu-1997&theme=github_dark&utcOffset=10" />
 </p>
 
 <p align="center">
