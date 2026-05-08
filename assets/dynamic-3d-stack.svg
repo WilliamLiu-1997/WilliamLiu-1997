@@ -5,8 +5,11 @@
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#c7cfdd" stroke-width="1" opacity="0.5"/>
     </pattern>
+    <clipPath id="frameClip">
+      <rect width="960" height="360" rx="8" ry="8"/>
+    </clipPath>
     <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feGaussianBlur stdDeviation="0.3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -26,8 +29,9 @@
     </linearGradient>
   </defs>
 
-  <path d="M0 0H960V338C960 350.15 950.15 360 938 360H22C9.85 360 0 350.15 0 338V0Z" fill="#e8ebf0"/>
-  <path d="M0 0H960V338C960 350.15 950.15 360 938 360H22C9.85 360 0 350.15 0 338V0Z" fill="url(#grid)" opacity="0.42"/>
+  <g clip-path="url(#frameClip)">
+  <rect width="960" height="360" rx="8" ry="8" fill="#e8ebf0"/>
+  <rect width="960" height="360" rx="8" ry="8" fill="url(#grid)" opacity="0.42"/>
   <path d="M0 260C115 220 196 232 300 260C426 294 558 305 706 250C820 207 894 220 960 238V360H0Z" fill="#d5dbe5" opacity="0.72"/>
   <path d="M0 284C142 252 263 273 388 291C517 310 648 307 782 260C860 233 916 238 960 252V360H0Z" fill="#eef1f5" opacity="0.58"/>
 
@@ -175,4 +179,5 @@
     </g>
   </g>
 
+  </g>
 </svg>
